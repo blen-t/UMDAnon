@@ -6,16 +6,29 @@ Files Included With This Project:
 loginpage.php
 
 home.html
+
 umdAnon.sql
+
 index.html (welcome page)
+
 welcome_stylesheet.css
+
 comment.css
+
 home_stylesheet.php
+
 DOTScomment.php
+
 diningComment.php
+
 housingComment.php
+
 academicComment.php
+
 campusComment.php
+
 healthComment.php
+
 form.php
+
 Formr framework folder
