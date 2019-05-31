@@ -1,0 +1,50 @@
+h1 {
+  text-align: center;
+  color: white;
+  font-family: Consolas, monaco, monospace;
+  font-size: 100px;
+  margin-top: 95px;
+  margin-bottom: 5px;
+}
+
+body {
+  background: url("https://www.bluezones.com/wp-content/uploads/2014/12/ryan-kosmides-254702-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#box {
+  background: rgba(0, 0, 0, 0.4);
+  height: 120px;
+  margin-top: 50px;
+  font-family: Consolas, monaco, monospace;
+  border-radius: 25px;
+  padding-top: 3px;
+  color: white;
+}
+
+.flex-container > div {
+  width: 405px;
+  height:300px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+}
+
+#sign_in{
+  background-color: white;
+  border: 0;
+  padding: 10px 20px;
+  color: red;
+  border-radius: 10px;
+  width: 200px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: 18px;
+
+}
+button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

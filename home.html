@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home_stylesheet.css">
+    <!-- <link href="DOTScomment.php"> -->
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333; }
+      li {float: left; }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; }
+      li a:hover {
+        background-color: #708090;
+      }
+    </style>
+</head>
+<body>
+  <ul>
+    <li><a class="active" href="home.html">Home</a></li>
+    <li><a href="loginpage.php">Logout</a></li>
+    <li><a href="form.php">Submit a Form</a></li>
+  </ul>
+
+  <div class="section">
+      <button class="box" onclick="window.location.href = 'diningComment.php'">Dining</button>
+      <button class="box" onclick="window.location.href = 'DOTScomment.php'">DOTS</button>
+      <button class="box" onclick="window.location.href = 'healthComment.php'">Health and Wellness</button>
+      <button class="box" onclick="window.location.href = 'academicComment.php'">Academic Concerns</button>
+      <button class="box" onclick="window.location.href = 'campusComment.php'">Campus Concerns</button>
+      <button class="box" onclick="window.location.href = 'housingComment.php'">Housing Concerns</button>
+  </div>
+
+</body>
+</html>

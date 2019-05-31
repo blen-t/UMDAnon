@@ -1,0 +1,22 @@
+body {
+  background: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg");
+
+}
+#content{
+  text-align: center;
+  font-family: Consolas, monaco, monospace;
+  font-size: 18px;
+}
+
+#comments {
+  text-align: left;
+  font-family: Consolas, monaco, monospace;
+  font-size: 18px;
+  margin: auto;
+  border-radius: 25px;
+  border: 2px solid red;
+  background-color: rgb(240, 240, 240);
+  padding: 20px;
+  width: 50%;
+  height: 100%;
+}
